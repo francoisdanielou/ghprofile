@@ -1,0 +1,111 @@
+Body {
+  background: whitesmoke;
+  font-family: roboto; 
+  font-size: 16px; 
+  text-align: center;}
+
+
+h1 { 
+  color: #766161;
+  font-size: 30px;
+  font-family: roboto;
+  line-height: 1;
+  letter-spacing: 5px; 
+  text-align: justify
+  text-align: center
+  }
+
+
+
+h2 {
+  color: #766161;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: justify
+  text-align: center }
+
+  a {
+    text-decoration: none ;
+    color: #79B4B7;
+    font-weight: bold;
+    text-align: center }
+  
+  a:hover { 
+  color: #536162 ; }
+
+  #picture { 
+  width: 160px;
+  text-align: center }
+
+  #audencia {
+  width: 160px; 
+  text-align: center}
+
+  #plougastel {
+  width: 160px;
+  text-align: center }
+
+  #fifa {
+  width: 160px;
+  text-align: center}
+
+  .img-circle { 
+  border-radius: 40%;
+  text-align: center
+}
+
+div { 
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 15px;                        /* Small radius */
+  box-shadow: 10px 10px 10px #766161;
+  width: 300px;     /* Fix the width first*/
+  margin: 15px auto
+}
+  
+
+.img-circle{
+border-radius: 50%;
+}
+
+
+
+
+
+.card-white { 
+  background-color: white; 
+  padding: 40px;
+  box-shadow: 0px 10 px 30px;
+  border-radius: 4px;}
+
+.btn-blue { 
+  background-color: #79B4B7;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px; }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;}
+
+.list-inline i { 
+  font-size: 50px;}
+
+@media (max-width:  400px) {
+  div { 
+  background-color: darkred;
+
+   }
+
+
+}
+
+
+  
+
